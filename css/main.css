@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+#main{width: 100%; border: 1px solid #999;}
+#main .intro{height: 900px;background:#FFE966}
+
+
+/* intro */
+#main .intro_2{background: lightsalmon; height: 900px;}
+
+#main .intro_test{background: lightskyblue; height: 100%; display: flex;}
+#main .intro_test .left{width: 500px; background: #999; }
+#main .intro_test .left img{width: 100%; display: block;}
+/* intro_2 */
+
+#main .project{background: lightgreen; height: 900px; width: 100%;}
+#main .project .prt{display: flex;}
+#main .project .prt_left {width: 50%; display: flex; background:hotpink; height: 900px; background: url(../img/main_wep_project.jpg) no-repeat center center; background-size: cover;}
+
+
+/* #main .project .prt_rigth{width:500px; background: #FFE966;} */
+
+
+
+
+#main .skill{background:thistle; height: 900px;}
+
+
+
+
+
+#main .epilogue{background: tomato; height: 900px;}
