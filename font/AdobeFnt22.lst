@@ -1,0 +1,325 @@
+%!Adobe-FontList 1.22
+%Locale:0x412
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SilkSerif-Black
+FamilyName:Silk Serif
+StyleName:Black
+FullName:SilkSerif-Black
+MenuName:Silk Serif
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:F:\포트폴리오\Font\SilkSerif-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:59040
+FileModTime:1704526121
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,SilkSerif-Black
+NameArray:0,Win,1,Silk Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SilkSerif-BlackItalic
+FamilyName:Silk Serif
+StyleName:Black Italic
+FullName:SilkSerif-BlackItalic
+MenuName:Silk Serif
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:F:\포트폴리오\Font\SilkSerif-BlackItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:64696
+FileModTime:1704526121
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,SilkSerif-BlackItalic
+NameArray:0,Win,1,Silk Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SilkSerif-Bold
+FamilyName:Silk Serif
+StyleName:Bold
+FullName:SilkSerif-Bold
+MenuName:Silk Serif
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:F:\포트폴리오\Font\SilkSerif-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:58488
+FileModTime:1704526121
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,SilkSerif-Bold
+NameArray:0,Win,1,Silk Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SilkSerif-BoldItalic
+FamilyName:Silk Serif
+StyleName:Bold Italic
+FullName:SilkSerif-BoldItalic
+MenuName:Silk Serif
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:F:\포트폴리오\Font\SilkSerif-BoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:63600
+FileModTime:1704526121
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,SilkSerif-BoldItalic
+NameArray:0,Win,1,Silk Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SilkSerif-ExtraLight
+FamilyName:Silk Serif
+StyleName:ExtraLight
+FullName:SilkSerif-ExtraLight
+MenuName:Silk Serif
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:F:\포트폴리오\Font\SilkSerif-ExtraLight.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:55436
+FileModTime:1704526121
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,SilkSerif-ExtraLight
+NameArray:0,Win,1,Silk Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SilkSerif-ExtraLightItalic
+FamilyName:Silk Serif
+StyleName:ExtraLight Italic
+FullName:SilkSerif-ExtraLightItalic
+MenuName:Silk Serif
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:F:\포트폴리오\Font\SilkSerif-ExtraLightItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:59304
+FileModTime:1704526121
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,SilkSerif-ExtraLightItalic
+NameArray:0,Win,1,Silk Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SilkSerif-Italic
+FamilyName:Silk Serif
+StyleName:Italic
+FullName:SilkSerif-Italic
+MenuName:Silk Serif
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:F:\포트폴리오\Font\SilkSerif-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:61912
+FileModTime:1704526121
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,SilkSerif-Italic
+NameArray:0,Win,1,Silk Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SilkSerif-Light
+FamilyName:Silk Serif
+StyleName:Light
+FullName:SilkSerif-Light
+MenuName:Silk Serif
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:F:\포트폴리오\Font\SilkSerif-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:56644
+FileModTime:1704526121
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,SilkSerif-Light
+NameArray:0,Win,1,Silk Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SilkSerif-LightItalic
+FamilyName:Silk Serif
+StyleName:Light Italic
+FullName:SilkSerif-LightItalic
+MenuName:Silk Serif
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:F:\포트폴리오\Font\SilkSerif-LightItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:61492
+FileModTime:1704526121
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,SilkSerif-LightItalic
+NameArray:0,Win,1,Silk Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SilkSerif-Medium
+FamilyName:Silk Serif
+StyleName:Medium
+FullName:SilkSerif-Medium
+MenuName:Silk Serif
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:F:\포트폴리오\Font\SilkSerif-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:56900
+FileModTime:1704526121
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,SilkSerif-Medium
+NameArray:0,Win,1,Silk Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SilkSerif-MediumItalic
+FamilyName:Silk Serif
+StyleName:Medium Italic
+FullName:SilkSerif-MediumItalic
+MenuName:Silk Serif
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:F:\포트폴리오\Font\SilkSerif-MediumItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:62192
+FileModTime:1704526121
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,SilkSerif-MediumItalic
+NameArray:0,Win,1,Silk Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SilkSerif-Regular
+FamilyName:Silk Serif
+StyleName:Regular
+FullName:SilkSerif-Regular
+MenuName:Silk Serif
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:F:\포트폴리오\Font\SilkSerif-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:56948
+FileModTime:1704526121
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,SilkSerif-Regular
+NameArray:0,Win,1,Silk Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SilkSerif-SemiBold
+FamilyName:Silk Serif
+StyleName:SemiBold
+FullName:SilkSerif-SemiBold
+MenuName:Silk Serif
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:F:\포트폴리오\Font\SilkSerif-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:58092
+FileModTime:1704526121
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,SilkSerif-SemiBold
+NameArray:0,Win,1,Silk Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SilkSerif-SemiBoldItalic
+FamilyName:Silk Serif
+StyleName:SemiBold Italic
+FullName:SilkSerif-SemiBoldItalic
+MenuName:Silk Serif
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:F:\포트폴리오\Font\SilkSerif-SemiBoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:62800
+FileModTime:1704526120
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,SilkSerif-SemiBoldItalic
+NameArray:0,Win,1,Silk Serif
+%EndFont
+

@@ -1,10 +1,18 @@
 @charset "utf-8";
 
-body{font-family: ' Philosopher','Arita-dotum', sans-serif; font-size: 1.6rem;line-height: 1.5; color:#000; word-break: keep-all;}
+body{font-family: 'Philosopher',"silk-itl",'Arita-dotum','sans-serif'; font-size: 1.6rem;line-height: 1.5; color:#000; word-break: keep-all; overflow-x: hidden;}
 /* word-break: keep-all 단어 안끊긴게 */
 
 
-#header{ border-bottom: 1px solid #eee;}
-#header .inner{display: flex; justify-content: space-between; width: 1200px; margin:0 auto;  }
-#header .gnb{display: flex; gap: 50px; }
-#header .gnb li a{ display: block; padding: 20px; font-weight: 700;}
+#header{position: fixed; top: 0; left: 0; width: 100%;z-index: 10; /* border-bottom: 1px solid #eee; */  background:rgba(255,255,255,0.5);}
+#header .logo img {display: block; }
+#header .inner{display: flex; justify-content: space-between; width: 1200px; margin:0 auto; align-items: center;  }
+#header .gnb{display: flex; gap: 50px;}
+#header .gnb > li{position: relative;}
+#header .gnb > li > a{ display: block; padding: 20px; font-weight: 700; font-size: 1.8rem;}
+
+#header .gnb> li .depth2 {position: absolute; top: 70px; left: 0; text-align: center; width: 100%; background:rgba(255,255,255,0.5);}
+#header .gnb .depth2 li a{display: block;  padding: 5px 0; font-weight: 700; transition: 0.5s;}
+
+#header .gnb .depth2 li:hover a{ background:#869C51; color: #fff; }
+/* #header .gnb .depth2 a{display: block; font-weight: 700; text-align: center;} */

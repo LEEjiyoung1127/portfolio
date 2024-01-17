@@ -6,3 +6,12 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&family=Philosopher:wght@400;700&display=swap');
+
+
+
+@font-face
+{
+  font-family: "silk-itl";
+  src: url('../font/SilkSerif-Italic.ttf') format("truetype");
+  font-style:normal;
+}

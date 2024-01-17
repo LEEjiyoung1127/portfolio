@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+
+#main{font-family: 'Noto+Sans+KR';  background: #eee; }
+
+#main .sub_mv{width: 100%; height: 300px; background: #FFCB00 ; }
+#main h3{text-align: center; font-size: 2.5em; padding: 100px 0;}
+#main .sub_mv .mv_img{ width: 1000px; margin: 0 auto; }
+#main .sub_mv .mv_img img{width: 100%; padding-top: 50px;}
+#main h4{font-size: 3rem; padding-bottom: 20px; color: #FFCB00;}
+
+
+/* main sub_mv */
+#main .inner{width: 1200px; margin: 0 auto;  background: #fff; line-height: 1.7;}
+#main .sub_plan { padding-left: 50px ; }
+#main .sub_plan > h3{padding-top: 350px; }
+#main .sub_plan .p_left{position: relative;}
+#main .sub_plan .p_left::before{content: ''; background: url(../img/sub/logo_bg.jpg)no-repeat center; display: block; position:absolute;top: -80px; right: 0; width: 600px;height: 600px;}
+#main .p_right{  padding-top: 50px;}
+#main .keyword{width: 400px;}  
+#main .keyword img{width: 100%;}
+
+#main .sub_type .color{ width: 600px; margin: 0 auto; }
+#main .sub_type .color img{width: 100%;}
+
+#main .font p{text-align: center;}
+
+
+
+
+
+#main .wire_img{
+    width: 800px; margin: 0 auto;
+    display: flex;gap: 50px; justify-items: center; 
+}
+
+#main .sub_wire img{width: 100%;}
+
+
+#main .sub_design{  margin: 0 auto; text-align: center;}
+
+#main .sub_design img{ margin: 0 auto;}
+/* main _wire */
+
+
+#main .mock_up{width: 100%;}
+
+#main .mock_up img{width: 100%;}
+
+
+/* mock_up */
+
+
+#footer .f_bottom{
+    width:100%; height: 100px; background: #feca01;text-align: center; padding-top: 40px; color: #fff;
+}

@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+
+#main{font-family: 'sans-serif';  background: #eee; }
+
+#main .bi{width: 1200px; margin: 0 auto;}
+#main .bi_1{ width: 1200px; margin: 0 auto;}
+#main .bi_1 img{width: 100%;}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,29 +13,45 @@
     <!-- css -->
 
     <link rel="stylesheet" href="css/reset.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/main.css">
 
     <!-- js -->
 
     <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/typeit@8.3.3/dist/index.umd.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/common.js"></script>
     
 </head>
 
+
 <div id="wrap">
 
     <header id="header">
         <div class="inner">
-        <h1 class="logo"><a href="index.html"></a></h1>
+        <h1 class="logo"><img src="img/common/logo.png" alt="포트폴리오"></h1></img><a href="index.html"></a></h1>
+        <!-- 폰트의 굵기를 정할수가 없다. 이미지로 대처-->
 
         <nav>
             <ul class="gnb">
                 <li><a href="#">INTRO</a></li>
                 <li><a href="#">ABOUAT ME</a></li>
-                <li><a href="#">PORTPOLIO</a></li>
+                <li><a href="#">PORTPOLIO</a>
+                    <ul class="depth2">
+                        <li><a href="sub/wep_project.html">록시땅</a></li>
+                        <li><a href="https://sosl127.cafe24.com/skin-skin1" target="_blank">cafe24</a></li>
+                        <li><a href="sub/bi_project.html">BI_brand</a></li>
+                        <li><a href="sub/book.html">project</a></li>
+                      
+                    </ul>
+                </li>
                 <li><a href="#">SKILL</a></li>
                 <li><a href="#">EPILOGUE</a></li>
             </ul>
@@ -43,47 +59,251 @@
     </div><!-- inner -->
     </header>
 
+    <body>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+              new TypeIt('.m_intro') //
+                .pause(2000)
+                /* .delete(7, { delay: 1000 }) */
+                /* .type('하고싶은게 너무 많습니다') */
+                
+                .go();
+
+                new TypeIt('.m_sub_text') //
+                .pause(1000)
+                
+                .move(-13, { delay: 100 })
+                .type("하구잽이 ", { delay: 400 })
+                .move(null, { to: "START", instant: true, delay: 200 })
+                .go();
+
+                
+            });
+          </script>
+
     <main id="main">
 
         
-        <section class="intro"></section>
+        <section class="intro">
+           <h2 class="m_intro">Portfolio</h2>
+           <P class="m_sub_text">디자이너 이지영입니다.</P>
+       
+     
+
+
+        </section>
 
 
 
         <!-- section_1 -->
         <section class="intro_2">
+            <p><img src="img/main/Asset 9.png " alt="백그라운드"></p>
             <div class="intro_test">
-            <div class="left"><img src="" alt="증명사진"></div>
+            <div class="left">
+              
+         <img src="img/main/me.gif" alt="증명사진">
+           
+                <h3 data-aos="fade-right" data-aos-duration='1500'><span>하고싶은게 많은</span><br>
+                디자이너 이지영입니다.</h3>
+                <p data-aos="fade-right" data-aos-duration='1800'>
+                    서로다른 사람들이 모여 협업하고 유연한 <br>
+                    사고로 수용하며<br>
+                    목표와 비전을 이해하는 과정들을 <br>
+                    통해 나 자신이 성장하는 것을 지향합니다.
+                     
+                </p>
+            </div>
             <div class="right">
-                <h3>자기소개</h3>
-                <p>skil</p>
+
+                <ul class="text_box">
+                    <li>Name</li>
+                    <li>Age</li>
+                    <li>Certificate</li>
+                    <li>Contents</li>
+                    <li>Mobile</li>
+                    
+                </ul>
+                
+                <div class="text_box2">
+                    <dl>
+                        <dt>이지영</dt>
+                        <dd>LEE ji young</dd>
+                    </dl>
+
+                    <dl>
+                        
+                        <dt>34세</dt>
+                        <dd>1991.11.27</dd>
+                    </dl>
+
+                    <dl>
+                       
+                        <dt>웹디자인기능사</dt>
+                        <dd>컴퓨터그래픽스기능사</dd>
+                        <dd>전자출판기능사</dd>
+                    </dl>
+
+                    <dl class="contents">
+                        
+                        <dt>록시땅</dt>
+                        <dd>학가산김치</dd>
+                        <dd>카페24</dd>
+                        <dd>영도다리축제</dd>
+                    </dl>
+
+                    <dl class="mobile">
+                        
+                        <dt>010.3361.2158</dt>
+                        <dd>sosl127@naver.com</dd>
+                    </dl>
+
+                    
+                </div>
+
+              
+                
+                
+                
+
+                
+
             </div>
         </div>
         </section>
         <!-- section_2 -->
-        <section class="project">
+        <section class="project" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom" data-aos-duration='1500'>
+       
             <div class="prt">
                 <div class="prt_left">
-                 <!--    <img src="img/main_wep_project.jpg" alt="웹프로젝트"> -->
+                   
+                <a href="sub/wep_project.html" target="_blank">
+                    
+                    <dl>
+                        <dt>wep project</dt>
+                        <dd>view more</dd>
+                    </dl>
+                    
+                </a>
+                <!-- <div class="on"></div> -->
                 </div>
+
                 <div class="prt_right">
                     <ul class="prt_top">
-                     <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
+                    <li><a href="sub/bi_project.html" target="_blank">
+                        <img src="img/main/b.png" alt="프로젝트1">
+                          <dl>
+                            <dt>BI / DESIGN</dt>
+                            <dd>view more</dd>
+                          </dl>
+                         
+                    </a>
+                    <!-- <div class="on"></div> -->
+                </li>
+                    <li>
+                        <a href="https://sosl127.cafe24.com/skin-skin1" target="_blank">
+                        <img src="img/main/shopping-mall 1.png " alt="프로젝트2">
+                        <dl>
+                            <dt>SHOPPING_MALL</dt>
+                            <dd>view more</dd>
+                          </dl>
+                        </a>
+                    </li>
+                   
                     </ul>
 
                     <ul class="prt_bottom">
-                        <li><a href="#"></a></li>
-                       <li><a href="#"></a></li>
+                        <li><a href="#">
+                            <video src="video/zep.mp4" loop autoplay muted></video>
+                              <dl>
+                                <dt>ZEP Project</dt>
+                                <dd>view more</dd>
+                              </dl>
+                            </a>
+
+                    </li>
+
+
+                        <li><a href="sub/book.html">
+                            <img src="img/main/book_3 1.png" alt="프로젝트4">
+                              <dl>
+                                <dt>BI / DESIGN</dt>
+                                <dd>view more</dd>
+                              </dl>
+                          
+                        </a>
+                        <!-- <div class="on"></div> -->
+                    </li>
+
+
                        </ul>
                     
                 </div>
             </div>
         </section>
         <!-- section_3 -->
-        <section class="skill"></section>
+        <section class="skill" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom" data-aos-duration='1500'>
+            <h2>skill</h2>
+            <div class="sk_list">
+               
+                <dl>
+                   
+                   
+                        <div class="donut ani" data-percent="75%">
+                        <img src="img/main/donut_1.png" alt="스킬1">
+                    </div>
+                    <h3>75%</h3>
+                    <dt>PHOTOSHOP</dt>
+                    <dd>스킬사용 능력</dd>
+                </dl>
+                <dl>
+                    <div class="donut" data-percent="90%">
+                        <img src="img/main/donut_2.png" alt="스킬2">
+                    </div>
+                    <h3>90%</h3>
+                    <dt>ILLUSTRATOR</dt>
+                    <dd>스킬사용 능력</dd>
+                </dl>
+                <dl>
+                    <div class="donut" data-percent="60%">
+                        <img src="img/main/donut_3.png" alt="스킬3">
+                    </div>
+                    <h3>70%</h3>
+                    <dt>HTML/CSS</dt>
+                    <dd>스킬사용 능력</dd>
+                </dl>
+                <dl>
+                    <div class="donut" data-percent="50%">
+                        <img src="img/main/donut_4.png" alt="스킬4">
+                    </div>
+                    <h3>50%</h3>
+                    <dt>JQUERY</dt>
+                    <dd>스킬사용 능력</dd>
+                </dl>
+                <dl>
+                    <div class="donut" data-percent="50%">
+                        <img src="img/main/donut_5.png" alt="스킬5">
+                    </div>
+                    <h3>40%</h3>
+                    <dt>블랜더</dt>
+                    <dd>스킬사용 능력</dd>
+                </dl>
+            
+             
+             
+              
+            </div>
+
+            
+		
+        </section>
         <!-- section_4 -->
-        <section class="epilogue"></section>
+        <footer id="footer">
+            <div class="f_bottom">
+                <p class="copy">© Designer. All Rights Reserved.</p>
+            </div>
+        </footer>
 
         <!-- section_5 -->
     </main>
@@ -100,10 +320,9 @@
 </div><!-- wrap -->
 
 
+<script>
+  AOS.init();
+</script>
 
-
-
-<body>
-    
 </body>
 </html>
